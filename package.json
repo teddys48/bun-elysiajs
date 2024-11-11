@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
     "@elysiajs/opentelemetry": "^1.1.7",
     "@elysiajs/swagger": "^1.1.5",
     "@types/knex": "^0.16.1",
