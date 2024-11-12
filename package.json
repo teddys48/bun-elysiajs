@@ -14,8 +14,15 @@
     "@elysiajs/swagger": "^1.1.5",
     "@types/knex": "^0.16.1",
     "@types/pg": "^8.11.10",
+    "better-sqlite3": "^11.5.0",
     "elysia": "^1.1.24",
     "knex": "^3.1.0",
-    "pg": "^8.13.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.4",
+    "oracledb": "^6.6.0",
+    "pg": "^8.13.1",
+    "pg-query-stream": "^4.7.1",
+    "sqlite3": "^5.1.7",
+    "tedious": "^18.6.1"
   }
 }
