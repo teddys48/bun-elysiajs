@@ -1,25 +1,19 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "index.ts",
-        "use": "@vercel/bun",
-        "config": { "includeFiles": ["dist/**"] }
-      },
-      {
-        "src": "/tmp/**",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "index.ts"
-      },
-      {
-        "src": "/(.+)",
-        "dest": "/tmp/$1"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/bun"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.ts"
+    },
+    {
+      "src": "/(.+)",
+      "dest": "/tmp/$1"
+    }
+  ]
+}
