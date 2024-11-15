@@ -30,7 +30,12 @@ const validateCreate = {
         },
         minLength: 1,
       }),
-    })
+    }),
+    {
+      error(err) {
+        return err.errors;
+      },
+    }
   ),
 };
 
